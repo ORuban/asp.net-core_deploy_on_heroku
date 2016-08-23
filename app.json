@@ -1,0 +1,21 @@
+{
+  "name": "asp.net-core web app",
+  "description": "Shows how to deploy ASP.NET Core app on Heroku",
+  "logo": "https://raw.githubusercontent.com/herokumx/herokumxnet/master/NETChatterGroup.png",
+  "keywords": ["heroku", "asp.net-core"],
+  "env": {
+    "PUBLISH_APP_DIR": {
+      "description": "The relative path to main published project",
+      "value" : "/src/WebApp"
+    },
+    "LAUNCH_ASSEMBLY_NAME": {
+      "description": "The assembly name, that will be used to run app using Kestrel",
+      "value": "WebApp.dll"
+    }
+  }
+  "buildpacks": [
+    {
+      "url": "https://github.com/ORuban/aspnetcore-buildpack.git"
+    }
+  ]
+}
