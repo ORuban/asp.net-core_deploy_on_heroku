@@ -12,7 +12,7 @@
       "description": "The assembly name, that will be used to run app using Kestrel",
       "value": "WebApp.dll"
     }
-  }
+  },
   "buildpacks": [
     {
       "url": "https://github.com/ORuban/aspnetcore-buildpack.git"
