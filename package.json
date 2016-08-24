@@ -8,7 +8,7 @@
   },
   "scripts": {
       "preinstall": "npm list bower -g || npm install bower -g"
-  }
+  },
   "homepage": "https://github.com/ORuban/asp.net-core_deploy_on_heroku#readme",
   "dependencies": {
   }
