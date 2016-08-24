@@ -1,0 +1,10 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORuban/asp.net-core_deploy_on_heroku.git"
+  },
+  "homepage": "https://github.com/ORuban/asp.net-core_deploy_on_heroku#readme"
+}
