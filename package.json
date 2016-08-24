@@ -6,5 +6,8 @@
     "type": "git",
     "url": "git+https://github.com/ORuban/asp.net-core_deploy_on_heroku.git"
   },
-  "homepage": "https://github.com/ORuban/asp.net-core_deploy_on_heroku#readme"
+  "homepage": "https://github.com/ORuban/asp.net-core_deploy_on_heroku#readme",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
 }
