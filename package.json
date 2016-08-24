@@ -7,7 +7,8 @@
     "url": "git+https://github.com/ORuban/asp.net-core_deploy_on_heroku.git"
   },
   "scripts": {
-      "preinstall": "npm list bower -g || npm install bower -g"
+      "preinstall": "npm list bower -g || npm install bower -g",
+      "postinstall": "bower cache clean"
   },
   "homepage": "https://github.com/ORuban/asp.net-core_deploy_on_heroku#readme",
   "dependencies": {
